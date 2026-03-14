@@ -1,5 +1,5 @@
 HOUSE PRICE PREDICTION
-  -url:([houseprice predictor app](https://housepricepredicting-msd7777.streamlit.app/))
+  -([houseprice predictor app](https://housepricepredicting-msd7777.streamlit.app/))
 ---
 
 ## **🎯 Project Description**
