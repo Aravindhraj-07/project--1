@@ -33,8 +33,7 @@ The application allows users to easily enter house details through a simple web 
   
 project--1
 │
-├── [data]
-│   └── (house_price_dataset.csv)
+ [data] (house_price_dataset.csv)
 │
 ├── notebooks
 │   └── part1.py
@@ -43,7 +42,7 @@ project--1
 │   └── house_price_model.pkl
 │
 ├── app
-│   └── app.py([text](https://housepricepredicting-msd7777.streamlit.app/))
+│   └── app.py(https://housepricepredicting-msd7777.streamlit.app/)
 │
 ├── requirements.txt
 │
