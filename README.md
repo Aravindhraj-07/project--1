@@ -31,21 +31,24 @@ The application allows users to easily enter house details through a simple web 
 
 # Project Directory
   
-project--1
+('''project--1
 │
- [data] (house_price_dataset.csv)
+├── data([dataset](<House Price Prediction Dataset.csv>))
+
 │
 ├── notebooks
-│   └── part1.py
+│ └── part1.py
+
 │
 ├── model
-│   └── house_price_model.pkl
+│ └── house_price_model.pkl([model](house_price_model.pkl))
+
 │
 ├── app
-│   └── app.py(https://housepricepredicting-msd7777.streamlit.app/)
+│ └── app.py([houseprice predictor](https://housepricepredicting-msd7777.streamlit.app/))
+
 │
-├── requirements.txt
-│
+└── requirements.txt''')
 
 
 # Future Improvements:
@@ -58,4 +61,5 @@ project--1
 
 
 ---
-Made by **AravindhRaj**
+Developed and Maintained  by **Aravindhraj**
+linkdin:([Aravindhraj](https://www.linkedin.com/in/aravindh-raj-15b029387?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
