@@ -20,7 +20,38 @@ The application allows users to easily enter house details through a simple web 
 
 ---
 
-## **🛠️ Technologies Used**
+## **� Installation and Usage**
+
+### Prerequisites
+- Python 3.7+
+- Virtual environment (recommended)
+
+### Installation
+1. Clone or download the project.
+2. Create a virtual environment:
+   ```
+   python -m venv venv
+   ```
+3. Activate the virtual environment:
+   - Windows: `venv\Scripts\activate`
+   - macOS/Linux: `source venv/bin/activate`
+4. Install dependencies:
+   ```
+   pip install streamlit scikit-learn pandas numpy joblib
+   ```
+
+### Usage
+1. Train the model (if needed):
+   ```
+   python part1.py
+   ```
+2. Run the Streamlit app:
+   ```
+   streamlit run app.py
+   ```
+3. Open the provided local URL in your browser to use the app.
+
+---
 
 - **Python**
 - **Pandas**
@@ -43,19 +74,12 @@ The application allows users to easily enter house details through a simple web 
 ```
 project--1/
 │
-├── data/
-│   └── House Price Prediction Dataset.csv
-│
-├── notebooks/
-│   └── part1.py
-│
-├── model/
-│   └── house_price_model.pkl
-│
-├── app/
-│   └── app.py
-│
-└── requirements.txt
+├── app.py                          # Streamlit web application
+├── part1.py                        # Training script for the model
+├── part1.ipynb                     # Jupyter notebook for training
+├── House Price Prediction Dataset.csv  # Dataset used for training
+├── house_price_model.pkl           # Trained machine learning model
+└── README.md                       # Project documentation
 ```
 - [Dataset](<House Price Prediction Dataset.csv>)
 - [Model](house_price_model.pkl)
