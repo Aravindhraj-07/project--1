@@ -1,5 +1,11 @@
+#install the latest version of python
+pyrelease 3.14.3
+#download the dataset 
+kaggle
+#Need to install the following libraries 
 streamlit
 pandas
 numpy
 scikit-learn
 joblib
+
